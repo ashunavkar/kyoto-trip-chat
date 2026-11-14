@@ -5,7 +5,7 @@ export default function FoodCard({ details }: { details: FoodDetails }) {
   return (
     <article
       aria-label={`Food: ${details.restaurantName}`}
-      className="flex items-start gap-4 rounded-2xl border border-line bg-white p-4"
+      className="flex items-start gap-4 squircle-16 border border-line bg-white p-4"
     >
       <div className="min-w-0 flex-1 space-y-1">
         <h3 className="text-xl font-semibold leading-snug tracking-tight">{details.restaurantName}</h3>
@@ -14,7 +14,7 @@ export default function FoodCard({ details }: { details: FoodDetails }) {
         </p>
         <p className="pt-1 text-sm">{details.description}</p>
       </div>
-      <ImagePlaceholder className="size-16 shrink-0 rounded-xl sm:size-20" />
+      <ImagePlaceholder className="size-16 shrink-0 squircle-12 sm:size-20" />
     </article>
   );
 }

@@ -6,7 +6,7 @@ export default function StayCard({ details }: { details: StayDetails }) {
   return (
     <article
       aria-label={`Stay: ${details.listingTitle}`}
-      className="overflow-hidden rounded-2xl border border-line border-t-4 border-t-rose bg-white"
+      className="overflow-hidden squircle-16 border border-line border-t-4 border-t-rose bg-white"
     >
       <ImagePlaceholder className="h-36 w-full sm:h-44" />
       <div className="space-y-1 p-4">

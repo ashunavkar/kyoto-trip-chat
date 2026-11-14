@@ -47,3 +47,24 @@ body {
     opacity: 0.6;
   }
 }
+
+/* Smooth "squircle" corners, like iOS icons or Figma's corner smoothing.
+   Every browser gets a normal rounded corner first. Browsers that understand
+   corner-shape (Chrome and Edge today) swap in the squircle. The radius is
+   doubled there because a squircle hugs the corner tighter, so the same
+   number would look smaller. */
+@utility squircle-12 {
+  border-radius: 12px;
+  @supports (corner-shape: squircle) {
+    corner-shape: squircle;
+    border-radius: 24px;
+  }
+}
+
+@utility squircle-16 {
+  border-radius: 16px;
+  @supports (corner-shape: squircle) {
+    corner-shape: squircle;
+    border-radius: 32px;
+  }
+}

@@ -5,7 +5,7 @@ export default function ExperienceCard({ details }: { details: ExperienceDetails
   return (
     <article
       aria-label={`Experience: ${details.activityName}`}
-      className="flex overflow-hidden rounded-2xl border border-line bg-white"
+      className="flex overflow-hidden squircle-16 border border-line bg-white"
     >
       <ImagePlaceholder className="w-24 shrink-0 sm:w-32" />
       <div className="min-w-0 space-y-1 p-4">
