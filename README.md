@@ -62,7 +62,7 @@ The weekend comes to $516 for two, under the sheet's $600 budget. Rows left out:
 - E4 is missing its host name, so its other values sit in the wrong columns.
 - F4 would push the weekend to $662, over budget.
 
-The sheet only has Saturday plans, so the Experience card's Sunday row shows the check-out from the stay.
+The Experience card shows one day label for each day the sheet lists. The tea ceremony runs on Saturday only, so it has a single SAT row.
 
 ## Where things live
 

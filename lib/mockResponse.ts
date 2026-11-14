@@ -22,9 +22,9 @@ export const KYOTO_WEEKEND: TripCard[] = [
     details: {
       activityName: "Tea ceremony in a 100-year-old machiya",
       duration: "2 hours",
+      // One row per day the sheet lists. E1 runs on Saturday only.
       dayPlan: [
         { day: "Sat 12 Apr", plan: "10:30 start. Meet outside Gion-Shijo Station, exit 6." },
-        { day: "Sun 13 Apr", plan: "Check out of the townhouse." },
       ],
     },
   },
